@@ -1,3 +1,23 @@
+// ========= See what you are doing =========
+// All the different types of console outputs:
+console.log("This is the log of element:" + element);
+console.info("This is the info of element:" + element);
+console.dir("This is the dir of element:" + element);
+console.error("Hi, this is error.");
+console.warn("Hi, this is warn.");
+console.table("This is the table of element:" + element);
+
+console.log("log of element:");
+console.log(element);
+console.log("info of element:");
+console.info(element);
+console.log("dir of element:");
+console.dir(element);
+console.error("Hi, this is error.");
+console.warn("Hi, this is warn.");
+console.log("table of element:");
+console.table(element);
+
 // ========= Accessing Elements =========
 // (source of some parts: https://fundamentals.generalassemb.ly/11_unit/dom-cheatsheet.html)
 
@@ -155,22 +175,3 @@ console.dir(element);
 // prints out every element we have (?)
 
 // "this" will be referring to the current working object
-
-// All the different types of console outputs:
-console.log("This is the log of element:" + element);
-console.info("This is the info of element:" + element);
-console.dir("This is the dir of element:" + element);
-console.error("Hi, this is error.");
-console.warn("Hi, this is warn.");
-console.table("This is the table of element:" + element);
-
-console.log("log of element:");
-console.log(element);
-console.log("info of element:");
-console.info(element);
-console.log("dir of element:");
-console.dir(element);
-console.error("Hi, this is error.");
-console.warn("Hi, this is warn.");
-console.log("table of element:");
-console.table(element);
