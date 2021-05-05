@@ -163,3 +163,14 @@ console.dir("This is the dir of element:" + element);
 console.error("Hi, this is error.");
 console.warn("Hi, this is warn.");
 console.table("This is the table of element:" + element);
+
+console.log("log of element:");
+console.log(element);
+console.log("info of element:");
+console.info(element);
+console.log("dir of element:");
+console.dir(element);
+console.error("Hi, this is error.");
+console.warn("Hi, this is warn.");
+console.log("table of element:");
+console.table(element);
