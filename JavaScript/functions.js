@@ -46,3 +46,13 @@ console.log(sum([2, 3, 4, 5], 3)); //result is 9
 // third round: else is executed again because n == 1,
 // fourth round: with n==0 it stops and returns 0.
 // in other words: arr[n-1] == arr[2] in the first round, arr[2] holds the value 4, second round: arr[1] == 3, third round: arr[0]==2, fourth round stops with n == 0
+
+// Kind of a recall function with apply()
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply
+
+const numbers = [5, 6, 2, 3, 7];
+
+const max = Math.max.apply([9, 10], numbers);
+
+console.log(max);
+// expected output: 7

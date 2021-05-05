@@ -1,0 +1,37 @@
+// Sass structure: https://github.com/Fbw-48/sass-project-structure
+
+// scss/
+// |
+// |- abstracts/
+// |	|- __abstracts-dir.scss     # Import all abstracts .scss files
+// |	|- _fonts.scss              # Font Import
+// |	|- _mixins.scss             # Scss Mixins
+// |	|- _variables.scss          # Scss Variables
+// |	|- _functions.scss          # Scss Functions(if you have)
+// |
+// |- base/
+// |	|- __base-dir.scss          # Import all base .scss files
+// |	|- _reset.scss              # Custom Reset/Normalize
+// |	|- _typography.scss         # Typography Rules
+// |	…                           # Rest if you have..
+// |
+// |- components/
+// |	|- __components-dir.scss    # Import all components .scss files
+// |	|- _button.scss             # Button Styles
+// |	|- _input.scss              # Input Styles
+// |	|- _modal.scss              # Modal Styles
+// |	…	                        # Rest if you have..
+// |
+// |- layouts/
+// |	|- __layouts-dir.scss       # Import all layouts .scss files
+// |	|- _footer.scss             # Footer Styles
+// |	|- _main-menu.scss          # Main Navigation Styles
+// |	…                           # Rest if you have..
+// |
+// |- vendor/
+// |	|- __vendor-dir.scss        # Import vendor folders (All of the out side tools that you need for your project)
+// |	|- fontawesome/             # Font Awesome
+// |	|- normalize/               # Normalize
+// |	…                           # Rest if you have..
+// |
+// main.scss                       # Main Scss File
