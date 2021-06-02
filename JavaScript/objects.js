@@ -5,6 +5,7 @@ console.log("=========Organized by Topic==========");
 
 //
 //hint: use strg + F to find stuff by tag!
+
 console.log("=========Objects==========");
 //object example 1:
 const objectName = {
@@ -15,7 +16,7 @@ const objectName = {
   emptyStr: "",
   emptyArr: [],
 };
-// objects can hold values: String, Boolean, number, arrays, objects
+// objects can hold values: string, boolean, number, arrays, objects
 //object example 2:
 const userObj = {
   firstName: "Nancy",
@@ -26,9 +27,10 @@ const userObj = {
   german: false,
   "hot or not": "hot",
 };
-//
+
 //properties = keys and values
-//no undefined keys, no values witout keys, but keys with empty values yes
+// keys which are not a number, boolean, or one continuous string have to be in quotation marks
+//no undefined keys, no values without keys, but keys with empty values yes
 //meaning: you cannot have values without keys inside an object
 
 //properties separated by comma, no comma needed after last property
@@ -51,6 +53,7 @@ console.log(objectName["arr"][2]); //bracket notation also works for this
 console.log(userObj.age);
 console.log(userObj["hot or not"]); //if the key name has spaces you HAVE TO USE BRACKET NOTATION!
 console.log(userObj.german); //here: prints boolean value
+// dot notation looks cleaner but the property names have to be a continuous string that does not start with a number
 
 // If a parameter is your key name:
 // Example: Here checkProp is just a parameter
@@ -432,26 +435,25 @@ function lookUpProfile(name, prop) {
 console.log(lookUpProfile("Akira", "likes"));
 console.log(lookUpProfile("Kristian", "lastName"));
 
-
 console.log("-------------Applying Functions To An Object--------------");
 // This is from Tutoring Class May 3rd, 2021: https://github.com/ceobit/examples/blob/main/may/03.js
 // using the apply and bind method
 // Objects
 const obj = {
-  name: 'Peter',
+  name: "Peter",
   a: 67,
-}
+};
 const obj2 = {
-  name: 'Anna'
-}
+  name: "Anna",
+};
 const obj3 = {
-  name: 'Sofia'
-}
+  name: "Sofia",
+};
 
 // function to apply to an Obj
 function print() {
   console.log(this.name);
-};
+}
 // This binds the Obj to the function (like a couple's wedding)
 const firstObj = print.bind(obj);
 const secondObj = print.bind(obj2);
@@ -461,7 +463,8 @@ firstObj();
 secondObj();
 thirdObj();
 
-console.log('/////');thirdObj
+console.log("/////");
+thirdObj;
 
 // print.apply(obj, ['Anna', 'Eva', 'Sofia']);
 
@@ -469,18 +472,14 @@ console.log('/////');thirdObj
 const func = print.bind(obj);
 // func();
 
-
 // const numbers = [5, 6, 2, 3, 7];
 
 // const max = Math.max.apply(null, []);
 // const max2 = Math.max(5, 6, 2, 3, 7);
 
-
-
 // console.log(max);
 // console.log(max2);
 // expected output: 7
-
 
 // all comments in your html page should be printed in console
 // but first let's understand apply method
@@ -493,7 +492,6 @@ const lettersArr2 = ["c", "d"];
 const numbers = [0, 1, 2];
 lettersArr.push.apply(lettersArr, numbers);
 lettersArr2.push(numbers);
-
 
 // console.info(lettersArr); // ["a", "b", 0, 1, 2]
 // console.log(`\n`);
@@ -518,9 +516,7 @@ console.log(allComments(document));
 let arr = [];
 let allComments2 = (element) => {
   element.childNodes.forEach((node) => {
-    node.nodeType === 8
-      ? arr.push(node)
-      : allComments2(node);
+    node.nodeType === 8 ? arr.push(node) : allComments2(node);
   });
   return arr;
 };

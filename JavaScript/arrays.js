@@ -79,13 +79,14 @@ console.log(myArrayOfNums);
 //.splice
 let spliceArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 //only the first argument in splice is mandatory
-//arguments: start(by index), delete(hoy many items to remove from start position, can be 0), items to add(separated by commas)
+//arguments: start(by index), delete(how many items to remove from start position, can be 0), items to add(separated by commas)
 //if the delete argument is omitted, then splice will remove all items from start index til end of array
 //if delete is 0 or a negative number it won't delete anything
 //we can use splice to add and remove items anywhere in the array
 //start, the item of the start index is also deleted
 spliceArray.splice(0, 1); //removes the first value from the array
 console.log(spliceArray);
+// The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place
 //you can also add several values to add
 //array.splice(start, deleteCount, item1, item2, item3, ...)
 spliceArray.splice(2, 3, "a", "b", "c", [3, "*", "hotel"]);
@@ -99,4 +100,29 @@ console.log(someOtherArray);
 someOtherArray = 0;
 console.log(someOtherArray);
 
-//What about refernces?
+//What about references?
+
+// reduce()
+// copied from Roman here: https://github.com/ceobit/mini-App/blob/main/fruits.js
+const fruits = ["banana", "lemon", "banana", "orange", "orange", "banana"];
+
+const getResult = (fruits) => {
+  const obj = fruits.reduce((acc, cur) => {
+    if (acc[cur]) {
+      acc[cur]++;
+    } else {
+      acc[cur] = 1;
+    }
+    return acc;
+  }, {});
+
+  const keys = Object.keys(obj);
+  keys.sort((a, b) => obj[b] - obj[a]);
+
+  console.log(keys);
+
+  // const arr = [...new Set(fruits)];
+  // console.log(arr.sort((a, b) => b.length - a.length));
+};
+
+getResult(fruits);
