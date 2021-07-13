@@ -2,6 +2,11 @@ If you really want to remove all of the repository,
 leaving only the working directory then it should be as simple as this.
 rm -rf .git
 
+-rf stands for remove forced
+
+git rm filename
+removes a file called filename with git
+
 Other source: https://github.com/joshnh/Git-Commands
 
 source: https://gist.github.com/cferdinandi/ef665330286fd5d7127d
@@ -158,7 +163,9 @@ git config --global core.editor "subl -n -w"
 sudo rm -rf /usr/local/bin/subl
 sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin
 
-
+How do I edit my last commit?
+git commit --amend -m "your updated commit message"
+Further info on https://git-scm.com/docs/git-commit
 
 
 
