@@ -133,6 +133,45 @@ Categories: design, worksapce specs, web browsers, frameworks, database, languag
   </ol>
 </details>
 
+## Keywords
+
+### Tools Used In This Project
+
+- [ ] Javascript
+- [x] React
+- [x] Sass
+- [x] CSS
+- [ ] HTML
+- [ ] MongoDB
+- [ ] Markdown
+- [ ] Bootstrap
+- [ ] Typescript
+- [ ] Node JS
+- [x] Node.js
+- [x] VSC (Visual Studio Code)
+- [x] Trello
+- [ ] Figma
+- [ ] Canva
+- [ ] Zoom
+- [ ] npm
+- [ ] Express
+- [ ]
+- [x]
+- [x]
+- [x]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [x]
+- [x]
+- [x]
+- [ ]
+- [ ]
+- [ ]
+
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
