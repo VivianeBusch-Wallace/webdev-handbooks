@@ -135,43 +135,6 @@ Categories: design, worksapce specs, web browsers, frameworks, database, languag
 
 ## Keywords
 
-### Tools Used In This Project
-
-- [ ] Javascript
-- [x] React
-- [x] Sass
-- [x] CSS
-- [ ] HTML
-- [ ] MongoDB
-- [ ] Markdown
-- [ ] Bootstrap
-- [ ] Typescript
-- [ ] Node JS
-- [x] Node.js
-- [x] VSC (Visual Studio Code)
-- [x] Trello
-- [ ] Figma
-- [ ] Canva
-- [ ] Zoom
-- [ ] npm
-- [ ] Express
-- [ ]
-- [x]
-- [x]
-- [x]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [x]
-- [x]
-- [x]
-- [ ]
-- [ ]
-- [ ]
-
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
@@ -197,6 +160,43 @@ This section should list any major frameworks that you built your project using.
 - [Bootstrap](https://getbootstrap.com)
 - [JQuery](https://jquery.com)
 - [Laravel](https://laravel.com)
+
+### Tools Used In This Project
+
+- [ ] Javascript
+- [x] React
+- [x] Sass
+- [x] CSS
+- [ ] HTML5
+- [ ] MongoDB
+- [ ] Markdown
+- [ ] Bootstrap
+- [ ] Typescript
+- [ ] Node JS
+- [x] Node.js
+- [x] VSC (Visual Studio Code)
+- [x] Trello
+- [ ] Figma
+- [ ] Canva
+- [ ] Zoom
+- [ ] npm
+- [ ] Express
+- [ ] JQuery
+- [x] SQL
+- [x]
+- [x]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [x]
+- [x]
+- [x]
+- [ ]
+- [ ]
+- [ ]
 
 <!-- GETTING STARTED -->
 
