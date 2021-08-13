@@ -1,16 +1,11 @@
 This is a README template originally by Othneil Drew on github: https://github.com/othneildrew but with some modifications.
 Github to original template: https://github.com/othneildrew/Best-README-Template
 
-This Repo was forked from https://github.com/othneildrew/Best-README-Template but for aesthetic reasons and because of the suggestion by my teacher removed from my single public repositories.
+This Repo was forked from https://github.com/othneildrew/Best-README-Template
+
+For the original go down to the raw template section.
 
 MODIFIED TEMPLATE:
-
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
--->
 
 <!-- PROJECT SHIELDS -->
 <!--
