@@ -109,9 +109,8 @@ This section should list any major frameworks that you built your project using.
 
 ### Tools Used In This Project
 
-- [ ] Javascript
-- [x] React
-- [x] Sass
+[ ] Javascript [x] React [x] Sass
+
 - [x] CSS
 - [ ] HTML5
 - [ ] MongoDB
