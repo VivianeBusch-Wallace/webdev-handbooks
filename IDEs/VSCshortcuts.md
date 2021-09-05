@@ -38,6 +38,9 @@ block comment/uncomment --> select area, strg + shift + a
 delete a line (deletes line where cursor is) --> strg + shift + k
 got line ... --> strg + g, type line number
 
+###Word Wrap
+showing a very long line of code in several lines when the window is small --> alt + z
+
 ###Move Cursor
 put cursor at beginning of line --> (numlock off), (on numpad:) 7/pos1 OR (in upper right corner of keyboard) pos1
 put cursor at end of line --> (numlock off), (on numpad:) 1/ende OR (in upper right corner of keyboard) ende
