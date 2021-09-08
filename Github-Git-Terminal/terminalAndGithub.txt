@@ -200,7 +200,13 @@ Use git pull upstream master to pull changes from the other repository to your m
 source: https://stackoverflow.com/questions/18200248/cloning-a-repo-from-someone-elses-github-and-pushing-it-to-a-repo-on-my-github
 Better check: https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
 
+// delete branch locally
+git branch -d localBranchName
 
+// delete branch remotely
+git push origin --delete remoteBranchName
+
+source: https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
 
 
 
